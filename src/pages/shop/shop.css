@@ -51,3 +51,16 @@
     color: white;
     cursor: pointer;
   }
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    .shop {
+      width: 100vw;
+    }
+    .products{
+      display: flex;
+      flex-direction: column;
+    }
+  }

@@ -15,8 +15,6 @@ export const ShopContextProvider= (props) => {
         }
         return cart;
     }
-
-
     const [cartItems , setCartItems] = useState(getOldCart());
 
 
